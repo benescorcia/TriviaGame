@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Trivia Questions</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   <div id="container">
+       <header>
+           <h1>Soccer Trivia </h1>
+       </header>
+       <section>
+           <br>
+           <br>
+           <div id="timeLeft"></div>
+           <button id="start" class="btn-start">Start</button>
+           <h3 id="results"></h3>
+       </section>
+       <form id="triviaForm" name="trivia" onsubmit="return submitAns()">
+           <h3>What does FIFA stand for? </h3>
+           <input type="radio" name="q1" value="a" id="q1a">a. Futbol Internationale Fedaration Americana <br>
+           <input type="radio" name="q1" value="b" id="q1b">b. Football International Fedaration Association <br>
+           <input type="radio" name="q1" value="c" id="q1c">c. Fédération Internationale de Football Association <br>
+           <input type="radio" name="q1" value="d" id="q1d">d. Futbol Internationale Fedaration Association <br>
+           <h3>Where is the next World Cup?</h3>
+           <input type="radio" name="q2" value="a" id="q2a">a. Rusia <br>
+           <input type="radio" name="q2" value="b" id="q2b">b. Usa <br>
+           <input type="radio" name="q2" value="c" id="q2c">c. Australia <br>
+           <input type="radio" name="q2" value="d" id="q2d">d. Qatar <br>
+           <h3>Who is the current world champion?</h3>
+           <input type="radio" name="q3" value="a" id="q3a">a. Italy  <br>
+           <input type="radio" name="q3" value="b" id="q3b">b. France <br>
+           <input type="radio" name="q3" value="c" id="q3c">c. Brazil  <br>
+           <input type="radio" name="q3" value="d" id="q3d">d. Germany <br>
+           <h3>Which country is the only country to have played in every World Cup?</h3>
+           <input type="radio" name="q4" value="a" id="q4a">a. Germany <br>
+           <input type="radio" name="q4" value="b" id="q4b">b. Mexico <br>
+           <input type="radio" name="q4" value="c" id="q4c">c. Brazil <br>
+           <input type="radio" name="q4" value="d" id="q4d">d. France <br>
+           <h3>Where was the first-ever World Cup held?</h3>
+           <input type="radio" name="q5" value="a" id="q5a">a. Brazil <br>
+           <input type="radio" name="q5" value="b" id="q5b">b. Uruguay <br>
+           <input type="radio" name="q5" value="c" id="q5c">c. Italy <br>
+           <input type="radio" name="q5" value="d" id="q5d">d. Spain <br>
+           <br><br>
+           <input type="submit" value="Submit Answers">
+       </form>
+   </div>
+   <script src="assets/javascript/app.js"></script>
+</body>
+</html>
